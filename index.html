@@ -36,6 +36,17 @@
             align-items:center;
             height: 100vh;
         }
+        .gallery{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+
+        }
+        @media(max-width:600px){
+            .gallery{
+                grid-template-columns: 1;
+            }
+        }
     </style>
 </head>
 <body>
@@ -62,5 +73,14 @@
         <a href="#">second</a>
         <a href="#">third</a>
     </nav>
+    <!--Div element with class gallery containing image tags-->
+    <div class="gallery">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH&pid=Api&P=0&h=180" alt="rohith" height="200" width="200">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH&pid=Api&P=0&h=180" alt="ROhith" height="200" width="200">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.G37tgeQqSNt7v2oPfj9ltQHaE7&pid=Api&P=0&h=180" alt="ROHITH" height="200" width="200">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.MCLzVoExgXPyNi_V5gb1AwHaE7&pid=Api&P=0&h=180" alt="ROHith" height="200" width="200">
+    </div>
+
+    <!---->
 </body>
 </html>
