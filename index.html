@@ -47,7 +47,7 @@
                 grid-template-columns: 1;
             }
         }
-        button{
+        .n{
             background-color:blue;
             color: white;
             cursor:pointer;
@@ -55,15 +55,23 @@
             width:200px;
 
         }
-        button:hover{
+        .n:hover{
             background-color:darkblue;
             transition: 0.3s;
 
         }
+        .a{
+            width:150px;
+            height:50px;
+
+        }
+        .a:hover{
+            transform:scale(1.2);
+        }
     </style>
 </head>
 <body>
-    <!--unordered List with containing 5 list items(anchor tags)-->
+    <!--1.unordered List with containing 5 list items(anchor tags)-->
     <ul>
         <li><a href="#">aaa</a></li>
         <li><a href="#">bbb</a></li>
@@ -71,22 +79,22 @@
         <li><a href="#">ddd</a></li>
         <li><a href="#">eee</a></li>
     </ul>
-    <!--heading and paragraph Tag-->
+    <!--2.heading and paragraph Tag-->
     <h1>This is a heading tag</h1>
     <p>janxa addndiqnd adiqndqoid qdojqdo qdq0mndoqm qdonqodqqd  iwnd cjs cjncjjnc cjc</p>
 
-    <!--Div containing a 'class' called card-->
+    <!--3.Div containing a 'class' called card-->
     <div class="card">
         Div class containing some text
     </div>
 
-    <!--Nav element containing anchor tags-->
+    <!--4.Nav element containing anchor tags-->
     <nav>
         <a href="#">first</a>
         <a href="#">second</a>
         <a href="#">third</a>
     </nav>
-    <!--Div element with class gallery containing image tags-->
+    <!--5.Div element with class gallery containing image tags-->
     <div class="gallery">
         <img src="https://tse3.mm.bing.net/th?id=OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH&pid=Api&P=0&h=180" alt="rohith" height="200" width="200">
         <img src="https://tse3.mm.bing.net/th?id=OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH&pid=Api&P=0&h=180" alt="ROhith" height="200" width="200">
@@ -94,8 +102,11 @@
         <img src="https://tse3.mm.bing.net/th?id=OIP.MCLzVoExgXPyNi_V5gb1AwHaE7&pid=Api&P=0&h=180" alt="ROHith" height="200" width="200">
     </div>
     <br>
-    <!--Button element -->
-    <button>This is Button tag</button>
-
+    <!--6.Button element -->
+    <button class="n">This is Button tag</button>
+    <br>
+    <br>
+    <!--7.Button element with text-->
+    <button class="a">Hover me</button>
 </body>
 </html>
